@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenwood</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <header class="border-b border-gray-300 sticky top-0 z-50 backdrop-blur-md bg-white/70">
+        <div class="max-w-7xl mx-auto px-6">
+            <nav class="flex justify-between h-20 items-center">
+                <div>
+                    <a href="#" class="font-bold text-2xl">Greenwood</a>
+                    <span class="bg-green-100 text-green-400 px-3 rounded-2xl">Open Sat</span>
+                </div>
+
+                <ul class="hidden md:flex gap-10">
+                    <li><a href="#sections" class="relative group text-gray-600 hover:text-black">Sections
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[2px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#gallery" class="relative group text-gray-600 hover:text-black">Gallery
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[2px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#membership" class="relative group text-gray-600 hover:text-black">Membership
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[2px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#events" class="relative group text-gray-600 hover:text-black">Events
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[2px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                </ul>
+
+                <button class="hidden md:block border-2 border-gray-300 rounded-full px-3 py-1 hover:bg-black hover:text-white hover:border-gray-400 transition"><a href="#contact">Visit us</a></button>
+
+                <ion-icon class="md:hidden text-3xl pt-2" name="menu-outline"></ion-icon>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-6 pt-20 pb-10 lg:pb-20">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h1 class="text-4xl lg:text-6xl">Your Neighbourhood<br>Library.</h1>
+                <p class="text-2xl py-16 text-gray-400">Thousands of books, quiet reading rooms, community
+                    <br>events, and free wi-fi &mdash; serving Greenwood since
+                    <br>1983.
+                </p>
+
+                <button class="text-white text-xl bg-black border-2 border-black px-4 py-4 lg:px-7 lg:py-4 rounded-full transition duration-300 hover:bg-white hover:text-black"><a href="#sections">Explore collection</a></button>
+                <button class="text-black text-xl border-2 border-gray-200 ml-5 px-3 py-4 lg:px-7 lg:py-4 rounded-full transition duration-300 hover:border-black"><a href="#membership">Join Free</a></button>
+            </div>
+            <div class="overflow-hidden h-[450px] rounded-3xl shadow-xl">
+                <img src="hero.avif" alt="library img." class="w-full h-[470px] transition-transform duration-700 hover:scale-105">
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 border-t border-gray-100 lg:mt-10">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-16 px-5 items-center pt-10">
+            <div>
+                <h2 class="font-bold text-[28px]">12,000+</h2>
+                <p class="text-sm text-gray-400">Books & journals</p>
+            </div>
+            <div>
+                <h2 class="font-bold text-[28px]">40+</h2>
+                <p class="text-sm text-gray-400">Years of service</p>
+            </div>
+            <div>
+                <h2 class="font-bold text-[28px] text-green-500">Free</h2>
+                <p class="text-sm text-gray-400">Wi-Fi & basic access</p>
+            </div>
+            <div>
+                <h2 class="font-bold text-[28px]">6</h2>
+                <p class="text-sm text-gray-400">Dedicated sections</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sections" class="max-w-7xl mx-auto px-6 py-20 scroll-mt-7">
+        <h2 class="text-gray-400 relative px-6">OUR SECTIONS
+            <span class="absolute border-b border-gray-100 w-full left-0 top-10 -bottom-1 "></span>
+        </h2>
+
+        <div class="grid lg:grid-cols-2 gap-5 px-5 items-center mt-2 pt-10">
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-green-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-green-700 duration-300 transition-colors">Fiction & LIterature</h3>
+                <p class="text-gray-400 mb-3">Novels, short stories, and poetry &mdash; from timeless classics to new voices.</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-green-300 duration-300 transition-colors">Browse Fiction
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-yellow-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-yellow-700 duration-300 transition-colors">Children's Corner</h3>
+                <p class="text-gray-400 mb-3">Picture books, early readers, and a cozy space for young learners.</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-yellow-300 duration-300 transition-colors">Browse Children's
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-blue-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-blue-700 duration-300 transition-colors">Science & Technology</h3>
+                <p class="text-gray-400 mb-3">Research journals, textbooks, and STEM reference materials.</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-blue-300 duration-300 transition-colors">Browse Science
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-rose-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-rose-700 duration-300 transition-colors">History & Culture</h3>
+                <p class="text-gray-400 mb-3">Local archives, world civilisations, art history, and cultural studies</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-rose-300 duration-300 transition-colors">Browse History
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-purple-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-purple-700 duration-300 transition-colors">Periodicals & Newspapers</h3>
+                <p class="text-gray-400 mb-3">Daily papers, weekly magazines, and curated journal subscriptions.</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-purple-300 duration-300 transition-colors">Browse Periodicals
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+            <div class="bg-gray-50 py-10 px-5 group hover:bg-cyan-50 duration-300 transition-colors">
+                <h3 class="font-bold text-2xl mb-3 group-hover:text-cyan-700 duration-300 transition-colors">Digital Media lab</h3>
+                <p class="text-gray-400 mb-3">Public computers, e-book access, and digital literacy resources.</p>
+                <a href="#" class="text-gray-300 relative group-hover:text-cyan-300 duration-300 transition-colors">Browse Digital
+                    <span class="absolute bg-gray-200 w-full h-[2px] left-0 -bottom-1 "></span>
+                </a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section id="gallery" class="max-w-7xl mx-auto px-6 scroll-mt-7">
+
+        <h2 class="text-gray-400 relative px-6">OUR SPACES
+            <span class="absolute border-b border-gray-100 w-full left-0 top-10 -bottom-1 "></span>
+        </h2>
+        <div class="flex justify-between px-6 mt-10">
+                <h2 class="font-bold text-2xl lg:text-3xl relative">Inside the Library</h2>
+
+                <button class="absolute right-10 lg:right-55 border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-black text-white hover:bg-white hover:text-black">View All</button>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10 px-5 items-center pt-10">
+            <div>
+                <div class="overflow-hidden rounded-xl">
+                    <img src="gallery1.jpg" alt="gallery1" class="h-[250px] w-[700px] hover:scale-105 duration-300 transition-transform">
+                </div>
+                <div class="flex justify-between py-2">
+                    <h2 class="font-bold text-xl relative">Reading Hall</h2>
+                    <button class="border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">Main Floor</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="overflow-hidden rounded-xl">
+                    <img src="gallery2.jpg" alt="gallery2" class="h-[250px] w-[700px] hover:scale-105 duration-300 transition-transform">
+                </div>
+                <div class="flex justify-between py-2">
+                    <h2 class="font-bold text-xl relative">Fiction Collection</h2>
+                    <button class="border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">2nd Floor</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="overflow-hidden rounded-xl">
+                    <img src="gallery3.jpg" alt="gallery3" class="h-[250px] w-[700px] hover:scale-105 duration-300 transition-transform">
+                </div>
+                <div class="flex justify-between py-2">
+                    <h2 class="font-bold text-xl relative">Archive Wing</h2>
+                    <button class="border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">Basement</button>
+                </div>
+            </div>
+
+            <div>
+                <div class="overflow-hidden rounded-xl">
+                    <img src="gallery4.jpg" alt="gallery4" class="h-[250px] w-[700px] hover:scale-105 duration-300 transition-transform">
+                </div>
+                <div class="flex justify-between py-2">
+                    <h2 class="font-bold text-xl relative">Digital Media Lab</h2>
+                    <button class="border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">Ground Floor</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-10">
+        <h2 class="text-gray-400 relative px-6">WHY GREENWOOD
+            <span class="absolute border-b border-gray-100 w-full left-0 top-10 -bottom-1 "></span>
+        </h2>
+
+        <div class="grid lg:grid-cols-3 gap-5 items-center pt-10">
+            <div class="bg-slate-50 hover:bg-slate-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">ABOUT</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">A PLACE FOR<br>EVERYONE.</h3>
+            </div>
+
+            <div class="bg-green-50 hover:bg-green-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">COMMUNITY</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">OPEN DOORS,<br>OPEN MINDS.</h3>
+            </div>
+
+            <div class="bg-yellow-50 hover:bg-yellow-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">40+ YEARS</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">TRUSTED BY<br>GENERATIONS.</h3>
+            </div>
+
+            <div class="bg-rose-50 hover:bg-rose-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">EVENTS</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">LEARN BEYOND<br>BOOKS.</h3>
+            </div>
+
+            <div class="bg-purple-50 hover:bg-purple-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">DIGITAL</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">E-BOOKS, WIFI<br>& COMPUTERS.</h3>
+            </div>
+
+            <div class="bg-stone-50 hover:bg-stone-100 px-10 py-5 duration-200 transition-colors">
+                <p class="text-gray-400">ABOUT</p>
+                <h3 class="mt-20 text-xl md:text-2xl mb-10">NO BARRIERS<br>TO KNOWLEDGE.</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="max-w-7xl mx-auto px-10 md:px-50 py-20">
+        <h2 class="text-[27px] md:text-4xl">More than a building full of books &mdash; a home for curious minds.</h2>
+        <div class="columns-1 sm:columns-2 gap-5 items-center pt-10">
+            <div>
+                <p class="mb-10 md:mb-0">Greenwood Public Library has been at the heart of this community since 1983. We believe everyone deserves free access to knowledge, regardless of age, income, or background. Our six sections cover everything from fiction to digital media</p>
+            </div>
+
+            <div>
+                <p>Beyond books, we host weekly events - reading challenges for children, book clubs, digital literacy workshops, and author meets. Our study rooms, free Wi-Fi, and welcoming staff make Greenwood a place people come back to, year after year</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="max-w-7xl mx-auto px-6 py-10 scroll-mt-15">
+        <h2 class="text-gray-400 relative px-6">MEMBERSHIP
+            <span class="absolute border-b border-gray-100 w-full left-0 top-10 -bottom-1 "></span>
+        </h2>
+        <div class="flex justify-between px-6 mt-10">
+                <h2 class="font-bold text-2xl lg:text-3xl relative">Join the Library</h2>
+
+                <button class="absolute right-10 lg:right-55 border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">Sign up</button>
+        </div>
+
+        <div class="grid lg:grid-cols-4 gap-16 px-5 items-center pt-10">
+            <div class="bg-green-50 py-10 h-[350px] px-7">
+                <p class="text-gray-300">CHOOSE A PLAN</p>
+                <h3 class="text-2xl mt-5">Everyone is<br>Welcome here.</h3>
+                <p class="text-gray-300 text-[15px] mt-5">Membership unlocks borrowing, study rooms, and priority events.</p>
+                <button class="mt-15"><a href="#" class="bg-black text-white px-3 py-2 border rounded-full transition duration-300 hover:bg-white hover:text-black">Lern More</a></button>
+            </div>
+
+            <div class=" border border-gray-300">
+                <div class="overflow-hidden">
+                    <img src="membership1.jpg" alt="Book photo" class="brightness-95 w-[410px] hover:scale-105 w-[410px] duration-300 transition-transform">
+                </div>
+                <h3 class="font-bold mt-5 pl-5">Basic</h3>
+                <h4 class="text-2xl text-gray-600 pl-5">Free</h4>
+                <p class="text-gray-400 pl-5 text-[13px]">3 books - Reading rooms - Wi-Fi</p>
+                <button class="mt-10 mb-10 pl-10 lg:pl-5"><a href="#" class=" px-33 lg:px-18 py-2 border border-gray-300 rounded-full transition duration-300 hover:bg-black hover:text-white">Join Free</a></button>
+            </div>
+
+            <div class=" border border-gray-300">
+                <div class="overflow-hidden relative">
+                    <img src="membership2.avif" alt="Book photo" class="brightness-95 w-[410px] hover:scale-105 duration-300 transition-transform">
+                    <span class="absolute top-3 right-3 bg-black text-white px-2 py-2 rounded-full text-[12px] ">Popular</span>
+                </div>
+                <h3 class="font-bold mt-5 pl-5">Student</h3>
+                <h4 class="text-2xl text-gray-600 pl-5">₹200<span class="align-baseline text-sm text-gray-400">/yr</span></h4>
+                <p class="text-gray-400 pl-5 text-[13px]">8 books - Digital catalogue - Study rooms</p>
+                <button class="mt-7 mb-10 pl-10 lg:pl-5"><a href="#" class=" px-33 lg:px-18 py-2 border bg-black text-white border-gray-300 rounded-full">Join Free</a></button>
+            </div>
+
+            <div class="border border-gray-500">
+                <div class="overflow-hidden">
+                    <img src="membership3.avif" alt="Books photo" class="brightness-95 w-[410px] hover:scale-105 duration-300 transition-transform">
+                </div>
+                <h3 class="font-bold mt-5 pl-5">Family</h3>
+                <h4 class="text-2xl text-gray-600 pl-5">₹500<span class="align-baseline text-sm text-gray-400">/yr</span></h4>
+                <p class="text-gray-400 pl-5 text-[13px]">15 books - All benefits - Priority events</p>
+                <button class="mt-10 mb-10 pl-10 lg:pl-5"><a href="#" class=" px-33 lg:px-18 py-2 border border-gray-300 rounded-full transition duration-300 hover:bg-black hover:text-white">Join Free</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-10 md:px-50 py-20">
+        <div class="max-w-6xl mx-auto px-5 py-5">
+            <div class="flex flex-col relative md:flex-row pl-5 gap-10">
+                <span class="absolute h-[2px] w-full -top-10 left-0 bg-gray-100"></span>
+                <img src="testimonial.jpg" alt="customer" class="rounded-full w-20 h-20 grayscale hover:grayscale-0 transition-all duration-500">
+
+                <div>
+                    <h3 class="mb-5 text-[15px] sm:text-2xl">"Greenwood has been mey second home for fifteen years &mdash; it's where I learned to love reading."</h3>
+                    <p class="text-[12px] sm:text-sm text-gray-400">&mdash; Meera Desai, volunteer at the children's section</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-7xl mx-auto px-5 scroll-mt-90">
+        <div class="bg-emerald-50 rounded-xl p-10 space-y-5">
+            <p class="text-gray-400">CONTACT</p>
+            <h3 class="text-3xl font-light">Visit us at 42 Elm Street, Greenwood.</h3>
+            <div class=" flex flex-col gap-4 md:flex-row md:space-x-8">
+                <p class="text-gray-400">Mon-Fri: 8am-7pm</p>
+                <p class="text-gray-400">Sat:9am-5pm</p>
+                <p class="text-gray-400">Sun:Closed</p>
+            </div>
+            <div class="flex flex-col md:flex-row py-5 relative">
+                <button><a href="#" class="md:hidden absolute -top-1 left-0 rounded-full bg-gray-700 text-white px-3 py-2">Get Directions</a></button>
+                <button><a href="#" class="hidden md:flex rounded-full bg-gray-700 text-white px-3 py-2">Get Directions</a></button>
+                <p class="pt-6 md:pt-2 md:px-5 text-sm md:text-[15px] text-gray-400">(555) 012-3456 - hello@greenwoodlibrary.org</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="max-w-7xl mx-auto px-6 py-10 scroll-mt-15">
+        <h2 class="text-gray-400 relative px-6">Events
+            <span class="absolute border-b border-gray-100 w-full left-0 top-10 -bottom-1 "></span>
+        </h2>
+        <div class="flex justify-between px-6 mt-10">
+                <h2 class="font-bold text-2xl lg:text-3xl relative">What's Coming Up</h2>
+
+                <button class="absolute right-10 lg:right-55 border-2 border-gray-300 rounded-full px-3 py-1 transition duration-300 bg-white text-black hover:bg-black hover:text-white">All Events</button>
+        </div>
+
+        <div class="grid lg:grid-cols-4 gap-10 px-5 items-center pt-10 ">
+            <div>
+                <div class="overflow-hidden rounded-2xl">
+                    <img src="events1.avif" alt="events1" class="h-[180px] w-[410px]">
+                </div>
+                <h3 class="text-[17px]">Summer Reading Challenge &mdash; open to children aged 6-14</h3>
+                <p class="text-gray-400 text-[12px]">5 Aug 2020</p>
+            </div>
+            <div>
+                <div class="overflow-hidden rounded-2xl">
+                    <img src="events2.webp" alt="events2" class="h-[180px] w-[410px]">
+                </div>
+                <h3 class="text-[17px]">Book Club: Discussing The God of Small Things</h3>
+                <p class="text-gray-400 text-[12px]">10 Aug 2026</p>
+            </div>
+            <div>
+                <div class="overflow-hidden rounded-2xl">
+                    <img src="membership3.avif" alt="events3" class="h-[180px] w-[410px]">
+                </div>
+                <h3 class="text-[17px]">Digital Literacy Workshop &mdash; free, no registration needed</h3>
+                <p class="text-gray-400 text-[12px]">18 Aug 2020</p>
+            </div>
+            <div>
+                <div class="overflow-hidden rounded-2xl">
+                    <img src="events4.jpg" alt="events4" class="h-[180px] w-[410px]">
+                </div>
+                <h3 class="text-[17px]">Author Meet: Priya Sharma &mdash; Q&A and book signing</h3>
+                <p class="text-gray-400 text-[12px]">25 Aug 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-10">
+        <div class="grid lg:grid-cols-4 gap-20 px-5 items-center pt-10">
+            <div class="md:h-[350px]">
+                <h2 class="font-bold text-xl">Greenwood</h2>
+                <div class="flex flex-row mt-5 gap-5">
+                    <div class="size-8 bg-gray-100 rounded-full items-center justify-center p-1"><p class="text-center text-[14px] text-gray-500">fb</p></div>
+                    <div class="size-8 bg-gray-100 rounded-full items-center justify-center p-1"><p class="text-center text-[14px] text-gray-500">Ig</p></div>
+                    <div class="size-8 bg-gray-100 rounded-full items-center justify-center p-1"><p class="text-center text-[14px] text-gray-500">Tw</p></div>
+                </div>
+            </div>
+
+            <div class="md:h-[350px]">
+                <h2 class="relative">Pages
+                    <span class="absolute border-b border-gray-200 w-full left-0 top-8 -bottom-1 "></span>
+                </h2>
+                
+                <ul class="mt-8 space-y-3 text-gray-400">
+                    <li><a href="#" class="relative group text-gray-500 hover:text-black">Home
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Sections
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#membership" class="relative group text-gray-500 hover:text-black">Membership
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#events" class="relative group text-gray-500 hover:text-black">Events
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#contact" class="relative group text-gray-500 hover:text-black">Contact
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="md:h-[350px]">
+                <h2 class="relative">Sections
+                    <span class="absolute border-b border-gray-200 w-full left-0 top-8 -bottom-1 "></span>
+                </h2>
+                <ul class="mt-8 space-y-3 text-gray-400">
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Fiction
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Childrens
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Science
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">History
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Periodicals
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                    <li><a href="#sections" class="relative group text-gray-500 hover:text-black">Digital Lab
+                        <span class="absolute left-0 -bottom-1 transition-all duration-400 h-[1px] w-0 bg-green-800 group-hover:w-full"></span>
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="md:h-[350px]">
+                <h2 class="relative">Details
+                    <span class="absolute border-b border-gray-200 w-full left-0 top-8 -bottom-1 "></span>
+                </h2>
+
+                <ul class="mt-8 space-y-3 text-gray-400">
+                    <li><a href="#">42 Elm Street</a></li>
+                    <li><a href="#">(555) 012-3456</a></li>
+                    <li><a href="#">heloo@greenwoodlibrary.org</a></li>
+                    <li><a href="#">Mon-Fri 8am-7pm</a></li>
+                    <li><a href="#">Sat 9am-5pm</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
